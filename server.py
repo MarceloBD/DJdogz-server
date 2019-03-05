@@ -12,7 +12,7 @@ def display():
     return 'here'
 
 @app.route('/r')
-def display():
+def display2():
     return 'routed'
 
 @app.route('/getMusics')
