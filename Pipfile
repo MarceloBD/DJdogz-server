@@ -9,6 +9,7 @@ verify_ssl = true
 Flask = "*"
 sqlalchemy = "*"
 python-decouple = "*"
+psycopg2= "*"
 
 [requires]
 

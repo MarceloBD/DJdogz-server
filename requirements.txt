@@ -6,3 +6,4 @@ MarkupSafe==1.0
 Werkzeug==0.14.1
 SQLAlchemy==1.2.18
 python-decouple==3.1
+psycopg2==2.7.7
