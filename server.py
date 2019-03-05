@@ -11,6 +11,10 @@ app = Flask(__name__)
 def display():
     return 'here'
 
+@app.route('/r')
+def display():
+    return 'routed'
+
 @app.route('/getMusics')
 def musics():
 	engine = create_engine(config('URI'))
